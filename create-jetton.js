@@ -1,7 +1,7 @@
 require("dotenv").config();
 const { mnemonicToPrivateKey } = require("@ton/crypto");
 const { TonClient, WalletContractV4, toNano, Address } = require("@ton/ton");
-const { JettonMinter } = require("@ton/ton/dist/contracts/token/jetton-minter");
+const { JettonMinter } = require('@ton/ton');
 
 const endpoint = "https://testnet.toncenter.com/api/v2/jsonRPC"; // Testnet
 
@@ -29,7 +29,7 @@ async function main() {
         return;
     }
 
-    const metadataUri = "https://yourdomain.com/jetton-meta.json";
+    const metadataUri = "https://intarial-it-blockchain.github.io/alt-jetton/jetton-meta.json";
 
     const jetton = await JettonMinter.create(client, keyPair, {
         owner: wallet.address,

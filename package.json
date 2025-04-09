@@ -1,0 +1,25 @@
+{
+  "name": "alt-jetton",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Intarial-IT-Blockchain/alt-jetton.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Intarial-IT-Blockchain/alt-jetton/issues"
+  },
+  "homepage": "https://github.com/Intarial-IT-Blockchain/alt-jetton#readme",
+  "description": "",
+  "dependencies": {
+    "@ton/crypto": "^3.3.0",
+    "@ton/ton": "^15.2.1",
+    "dotenv": "^16.4.7"
+  }
+}

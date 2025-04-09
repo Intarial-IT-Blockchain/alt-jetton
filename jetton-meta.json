@@ -1,0 +1,7 @@
+{
+  "name": "TestINT",
+  "description": "test token",
+  "symbol": "TINT",
+  "decimals": 6,
+  "image": "https://yourdomain.com/images/token.png"
+}
